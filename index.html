@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grand Samosa</title>
+
+    <!-- Three.js and Extras -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.144.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.144.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.144.0/examples/js/loaders/GLTFLoader.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.144.0/examples/js/loaders/DRACOLoader.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+
+
+
+
+
+</head>
+
+<body>
+    <!-- UI Controls -->
+    <div id="ui">
+        <button onclick="prevModel()">Back</button>
+        <select id="category" onchange="switchCategory()">
+            <option value="main">Main</option>
+        </select>
+        <button onclick="nextModel()">Next</button>
+    </div>
+
+    <!-- Canvas for Three.js -->
+    <canvas id="sceneCanvas"></canvas>
+
+
+    <script src="main.js"></script>
+
+
+
+
+</body>
+
+</html>
